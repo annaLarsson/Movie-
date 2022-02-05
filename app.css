@@ -1,0 +1,90 @@
+.general {
+    width: 100%;
+    height:100%;  
+  
+
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+   
+    background-size: 100% 100%;
+    opacity: 0.4;
+    animation: glitch1 2.5s infinite;
+
+  }
+  .movieBtn{
+    position: fixed;
+    height: auto;
+    width:auto;   
+    margin-left: 900px;
+    margin-top: -100px;
+    
+  }
+  .btn{
+    margin:10px;
+    background-color: magenta;
+  }
+
+.video, html {
+   background-color: rgb(120, 238, 104);
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 0.3;
+    }
+    7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.15;
+    }
+    10% {
+      transform: none;
+      opacity: 0.3;
+    }
+    27% {
+      transform: none;
+      opacity: 0.2;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.35;
+    }
+    35% {
+      transform: none;
+      opacity: 0.53;
+    }
+    52% {
+      transform: none;
+      opacity: 0.21;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 0.1;
+    }
+    72% {
+      transform: none;
+      opacity: 0.11;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 0.31;
+    }
+    100% {
+      transform: none;
+      opacity: 0.31;
+    }
+  }
